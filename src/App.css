@@ -1,2 +1,7 @@
-#root {
+#root {}
+
+@media (min-width: 1000px) {
+    .lottie-cactus {
+        height: 65vh;
+    }
 }
