@@ -7,12 +7,9 @@ import Feature from './Feature';
 function App() {
   const lottieRef = useRef<LottieRefCurrentProps>(null);
   useEffect(() => {
-    console.log('lottieRef change ', lottieRef);
     if (lottieRef.current) {
-      console.log('lottieRef goToAndStop ');
       lottieRef.current.setSpeed(0.5)
       lottieRef.current.playSegments([1, 100], true);
-
     }
   }, [lottieRef]);
 
