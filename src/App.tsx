@@ -13,11 +13,11 @@ function App() {
     }
   }, [lottieRef]);
 
-  return <main className="bg-gray-50">
+  return <main className="bg-gray-50 dark:bg-gray-900">
     <div className="container mx-auto p-6">
 
       <div className="w-full flex items-center justify-between">
-        <a className="flex items-center text-gray-900 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+        <a className="flex items-center text-gray-900 dark:text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
           Cactus
         </a>
 
@@ -30,7 +30,7 @@ function App() {
     </div>
 
     <div className="mx-auto container p-6 lg:flex lg:items-center lg:justify-between">
-      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+      <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
         <span className="block">Slow and Steady Growth</span>
         <span className="block text-amber-500">With minimum effort.</span>
       </h2>
@@ -39,7 +39,7 @@ function App() {
       </div>
     </div>
 
-    <div className="container mx-auto bg-white py-12 sm:py-16 lg:py-20">
+    <div className="container mx-auto bg-white dark:bg-gray-500 py-12 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
           <h2 className="text-lg font-semibold leading-8 text-amber-600">Features</h2>
